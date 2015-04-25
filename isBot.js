@@ -3,6 +3,8 @@
  *
  * A simple library to detect bots,
  * Googlebot,
+ * Bingbot,
+ * Yahoobot,
  * via user agent sniffing.
  *
  * @author: Yoann Lecuyer (yoann.lecuyer@gmail.com)
@@ -12,7 +14,8 @@
 (function (global) {
 
     var googlebot         = /Googlebot/i,
-        bingbot           = /bingbot/i;
+        bingbot           = /bingbot/i,
+        yahoobot           = /Yahoo! Slurp/i;
 
     var match = function(regex, userAgent) {
         return regex.test(userAgent);
@@ -23,8 +26,9 @@
 
         this.googlebot = match(googlebot, ua);
         this.bingbot = match(bingbot, ua);
+        this.yahoobot = match(yahoobot, ua);
 
-        this.bot = this.googlebot || this.bingbot;
+        this.bot = this.googlebot || this.bingbot || this.yahoobot;
 
         if (typeof window === 'undefined') {
             return this;
