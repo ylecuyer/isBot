@@ -1,0 +1,11 @@
+{
+  "name": "isBot",
+  "version": "0.1",
+  "main": "isBot.js",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTORS.md",
+    "Gruntfile.js",
+    "tests"
+  ]
+}

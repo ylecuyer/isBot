@@ -1,0 +1,23 @@
+{
+  "name": "isBot.js",
+  "version": "0.1",
+  "description": "A simple JS library that detects bots.",
+  "keywords": [
+    "isBot",
+    "bot detection",
+    "useragent"
+  ],
+  "homepage": "https://github.com/ylecuyer/isBot",
+  "license": "CC0",
+  "author": {
+    "name": "Yoann Lecuyer",
+    "email": "yoann.lecuyer@gmail.com"
+  },
+  "main": "./isBot",
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-jshint": "0.8.x",
+    "grunt-contrib-uglify": "0.3.x",
+    "grunt-contrib-jasmine": "0.6.x"
+  }
+}
