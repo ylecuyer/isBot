@@ -19,7 +19,7 @@ The following properies of the `isBot` object will either be `true` or `false`
 
 ### Aggregate Groupings
 
-* `isMobile.bot` - any bot 
+* `isBot.bot` - any bot 
 
 ### node.js usage
 
