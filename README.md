@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/kaimallea/isBot.png)](https://travis-ci.org/kaimallea/isBot)
-[![Node dependencies status](https://david-dm.org/kaimallea/isBot.png)](https://david-dm.org/kaimallea/isBot)
+[![Build Status](https://travis-ci.org/ylecuyer/isBot.svg)](https://travis-ci.org/ylecuyer/isBot)
+[![Node dependencies status](https://david-dm.org/ylecuyer/isBot.svg)](https://david-dm.org/ylecuyer/isBot)
 
 # isBot
 
