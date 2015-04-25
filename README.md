@@ -17,6 +17,10 @@ The following properies of the `isBot` object will either be `true` or `false`
 
 * `isBot.googlebot`
 
+### Bingbot
+
+* `isBot.bingbot`
+
 ### Aggregate Groupings
 
 * `isBot.bot` - any bot 

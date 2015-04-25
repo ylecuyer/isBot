@@ -11,7 +11,8 @@
  */
 (function (global) {
 
-    var googlebot         = /Googlebot/i;
+    var googlebot         = /Googlebot/i,
+        bingbot           = /bingbot/i;
 
     var match = function(regex, userAgent) {
         return regex.test(userAgent);
@@ -21,8 +22,9 @@
         var ua = userAgent || navigator.userAgent;
 
         this.googlebot = match(googlebot, ua);
+        this.bingbot = match(bingbot, ua);
 
-        this.bot = this.googlebot;
+        this.bot = this.googlebot || this.bingbot;
 
         if (typeof window === 'undefined') {
             return this;
